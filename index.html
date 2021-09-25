@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Web</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <script src="javascript.js"></script>
+
+    <section class="calculadora">
+        <h1>Calculadora Web</h1>
+        <div class="primer-numero">
+            <p>Primer numero: </p>
+            <input type="number" id="primerNumero">
+        </div>
+        <div>
+            <p>Segundo numero: </p>
+            <input type="number" id="segundoNumero">
+        </div>
+
+        <input onclick="sumar()" class="suma" type="image" src="suma.png" width="2%">
+        <input onclick="restar()" class="resta" type="image" src="resta.png" width="2%">
+        <input onclick="multiplicar()" class="multiplicar" type="image" src="multiply.png" width="2%">
+        <input onclick="dividir()" class="division" type="image" src="dividir.png" width="2%" >
+        <p id="resultado"> </p>
+    </section>
+
+    <div class="historial">
+        <input onclick="mostrar_operacion()" type="submit" value="Mostrar historial">
+        <input onclick="eliminar()" type="submit" value="Eliminar historial">
+        <div id="mostrar_resultados"></div></div>
+        
+    </div>
+    
+</body>
+</html>

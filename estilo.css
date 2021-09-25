@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #000;
+    font-size: 3.6rem;
+    text-align: center;
+    font-family:fantasy;
+}
+
+.suma,
+.resta,
+.multiplicar,
+.division{
+
+    width: 4rem;
+    margin: 1rem 1rem;
+
+}
+
+.calculadora{
+    margin-top: 5rem;
+    padding-top: 2rem;
+    background-position: center;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    background-color: #fff;
+    border-radius: 25%;
+    
+}
+
+#resultado{
+    padding-bottom: 7rem;
+}
+
+.historial{
+    margin-top: 5rem;
+    background-position: center;
+    padding-top: 0%;
+    padding-bottom: 15rem;
+    background-color: #fff;
+    background-size: cover;
+}
